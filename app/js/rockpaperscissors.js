@@ -7,6 +7,7 @@ playToFive();
 
 function getInput() {
     console.log("Please choose either 'rock', 'paper', or 'scissors'.")
+    // TODO error here. prompt is not a recognised function
     return prompt();
 }
 function randomPlay() {
